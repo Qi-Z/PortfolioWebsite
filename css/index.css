@@ -1,0 +1,162 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.logo {
+    height:100%;
+}
+
+.person-info {
+    width:50%;
+    height: 100%;
+    float: right;
+    text-transform: uppercase;
+}
+
+#person-name {
+    margin: 0px;
+    height:50%;
+    font-size: 20px;
+}
+
+#person-title {
+    margin: 0px;
+    height: 50%;
+    font-size:18px;
+}
+
+.hero-image {
+    clear: both;
+    background-image: url("../img/tibet.jpeg");
+    width:100%;
+    height:250px;
+    background-size:cover;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    text-align: center;
+
+}
+
+.project-img {
+    width:100%;
+}
+
+.project {
+    margin-bottom: 10px;
+}
+
+.project-description {
+    margin:0px;
+    color: #7d97ad;
+}
+
+hr {
+    color: #7d97ad;
+    clear: both;
+}
+
+.section-title {
+    color: #7d97ad;
+    margin: 8px 0px;
+}
+
+#person-name, #person-title {
+    text-align: right;        
+    font-weight: lighter;
+}
+
+@media screen and (max-width:600px) {
+    .header {
+        height: 60px;
+    }
+    
+    .project {
+        width: 50%;
+        height: 180px;
+        padding: 5px 3px;
+        box-sizing: border-box;
+        margin-bottom:10px;
+    }
+
+    .project-img {
+        height: 113px;
+        margin-bottom: 2px;
+    }
+
+    .project-description {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:900px){
+    .header {
+        height: 60px;
+    }
+
+    .section-title {
+        font-size: 22px;
+    }
+
+    #person-name {
+        font-size: 25px;
+    }
+
+    #person-title {
+        font-size: 20px;
+    }
+
+    .project {
+        width: 50%;
+        padding: 5px 3px;
+        box-sizing: border-box;
+        margin-bottom:10px;
+    }
+
+    .project-img {
+        height: 175px;
+        margin-bottom: 2px;
+    }
+
+}
+
+@media screen and (min-width:901px){
+    .header {
+        height: 80px;
+    }
+
+    .section-title {
+        font-size: 25px;
+    }
+
+    #person-name {
+        font-size: 30px;
+    }
+
+    #person-title {
+        font-size: 23px;
+    }
+
+    .project {
+        width: 33%;
+        padding: 10px 8px;
+        box-sizing: border-box;
+        margin-bottom:15px;
+        font-size: 22px;
+    }
+
+    .project-img {
+        height: 219px;
+        margin-bottom: 4px;
+    }
+
+    hr {
+        margin-bottom: 20px;
+    }
+
+}
